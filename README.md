@@ -20,4 +20,7 @@ Users can share auction details by using the "Share" button, which generates a s
 •	Auctions automatically end after the specified duration.
 ### Note: Replace the placeholder logic in the is_admin function with your own admin privilege verification.
 Feel free to customize the bot further based on your requirements. For any assistance or issues, contact the bot administrator.
+## The bot was created in the 3.12 version of python
+1. You should download the (telebotAPI) and (threading) libraries, other imports are built-in libraries.
+
 
