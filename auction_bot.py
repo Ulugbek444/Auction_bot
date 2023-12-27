@@ -6,7 +6,7 @@ import time
 context = {}
 user_started = {}
 timers = {}
-bot = telebot.TeleBot('6491915211:AAH8qYOAd2OAOZAFqcZGRuuy8cVJH0_CpQY')
+bot = telebot.TeleBot('')
 user_selected_time = {}
 imgbb_token = '26489871688189f55eef424e3d117fa2'
 context1 = {}
