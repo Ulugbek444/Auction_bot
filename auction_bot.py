@@ -8,7 +8,6 @@ user_started = {}
 timers = {}
 bot = telebot.TeleBot('YOUR_TELEGRAM_BOT_TOKEN')
 user_selected_time = {}
-imgbb_token = '26489871688189f55eef424e3d117fa2'
 context1 = {}
 
 # Set folder name
