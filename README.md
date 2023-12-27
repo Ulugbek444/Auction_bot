@@ -7,8 +7,6 @@ Before running the bot, make sure you have the following:
 ### 1. Python: The bot is written in Python, so you need to have Python installed on your machine. You can download Python from python.org.
 
 ### 2. Telegram Bot Token: You need to create a Telegram bot and obtain the bot token. Follow the instructions (https://helpdesk.bitrix24.ru/open/17538378/) to create a new bot and get the token.
-
-### 3. ImgBB Token: The bot uses ImgBB to store images. You need to sign up on ImgBB and obtain the API token.
 # Installation
 ## The bot was created in the 3.12 version of python
 1. You should download the (telebotAPI)library, other imports are built-in libraries.
@@ -17,8 +15,6 @@ Before running the bot, make sure you have the following:
 2. Open the auction_bot.py file in a text editor.
    Replace 'YOUR_TELEGRAM_BOT_TOKEN' with the token you obtained from the BotFather:
    ### bot = telebot.TeleBot('YOUR_TELEGRAM_BOT_TOKEN')
-6. Replace 'YOUR_IMGBB_TOKEN' with the ImgBB API token:
-   ### imgbb_token = 'YOUR_IMGBB_TOKEN'
 ## Commands
 •	/help: Displays instructions for using the bot.
 •	/start or /restart: Starts the bot and provides a brief introduction.
@@ -52,10 +48,4 @@ Users can share auction details by using the "Share" button, which generates a s
 •	Auctions automatically end after the specified duration.
 ### Note: Replace the placeholder logic in the is_admin function with your own admin privilege verification.
 Feel free to customize the bot further based on your requirements. For any assistance or issues, contact the bot administrator.
-## The bot was created in the 3.12 version of python
-1. You should download the (telebotAPI) and (threading) libraries, other imports are built-in libraries.
-   For this you need to open your terminal and enter the following commands:
-   1. pip install pyTelegramBotAPI
-   2. pip install threading
-
 
