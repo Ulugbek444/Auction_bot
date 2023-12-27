@@ -9,14 +9,12 @@ Before running the bot, make sure you have the following:
 ### 2. Telegram Bot Token: You need to create a Telegram bot and obtain the bot token. Follow the instructions (https://helpdesk.bitrix24.ru/open/17538378/) to create a new bot and get the token.
 
 ### 3. ImgBB Token: The bot uses ImgBB to store images. You need to sign up on ImgBB and obtain the API token.
-## Installation
-1. Clone the repository:
-   git clone https://github.com/your-username/telegram-auction-bot.git
-2. Change into the project directory:   
-    cd telegram-auction-bot
-3. Install the required Python packages:
-   pip install -r requirements.txt
-4. Open the auction_bot.py file in a text editor.
+# Installation
+## The bot was created in the 3.12 version of python
+1. You should download the (telebotAPI)library, other imports are built-in libraries.
+   For this you need to open your terminal and enter the following commands:
+   1. pip install pyTelegramBotAPI
+2. Open the auction_bot.py file in a text editor.
    Replace 'YOUR_TELEGRAM_BOT_TOKEN' with the token you obtained from the BotFather:
    ### bot = telebot.TeleBot('YOUR_TELEGRAM_BOT_TOKEN')
 6. Replace 'YOUR_IMGBB_TOKEN' with the ImgBB API token:
